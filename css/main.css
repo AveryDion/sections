@@ -1,7 +1,78 @@
 html {
   box-sizing: border-box;
+  background-color: #eee9de;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+h2 {
+  font-family: Lato, sans-serif;
+  font-weight: bold;
+  margin-top: 1rem;
+  padding-top: .25em;
+}
+
+p {
+  font-family: Lato, sans-serif;
+  font-style: normal;
+  max-width: 23em;
+  padding-bottom: 1em;
+}
+
+.btn {
+  color: #333;
+  text-decoration: none;
+  font-family: Lato, sans-serif;
+  padding: .5em .75em .6em;
+  border: 3px solid #333;
+  border-radius: 7px;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+
+.btn:hover {
+  color: #fff;
+  border: 3px solid #666;
+  border-radius: 5px;
+  background-color: #666;
+}
+
+div {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+  margin: 1.5rem;
+  margin-top: 0;
+  margin-bottom: .35rem;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  padding-top: 3em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+}
+
+img {
+  width: 100%;
+  display: block;
+  text-align: center;
+  max-width: 23em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
 }
